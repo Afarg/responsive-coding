@@ -1,0 +1,398 @@
+@charset 'UTF-8';/* 文字コードの指定 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
+/* Base */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Noto Sans JP', '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #ffffff;
+    background-color: #071e3d;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+small {
+    font-size: 0.8em;
+}
+
+/* Header
+------------------------------------------------------------*/
+
+.header {
+    display: flex;
+   
+}
+
+.sp-nav {
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    display: none;
+    z-index: 1000;
+    width: 100%;
+    background-color: #071e3d;
+    opacity: .9;
+}
+
+.sp-nav-list {
+    width: 80%;
+    padding: 0 10%;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 2.8rem;
+    text-align: left;
+    list-style: none;
+}
+
+.sp-nav-list li {
+    margin-bottom: 1rem;
+}
+
+.header-main-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url("../images/main_charactors.jpg");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.nav-button,
+.cart-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 14px;
+    font-size: 20px;
+    line-height: 0;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #071e3d;
+}
+
+.nav-button {
+    top: 15px;
+    right: 15px;
+}
+
+
+.sub-main {
+    padding: 1.4rem;
+    margin-top: 2.0rem;
+    font-size: 2.8rem;
+    line-height: 0;
+    text-align: center;
+   
+}
+
+.cart-button {
+    top: 15px;
+    left: 15px;
+}
+
+.mainlogo {
+    padding: 14px;
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 0;
+    text-align: center;
+    color: #071e3d;
+}
+
+
+
+
+/* Contents共通
+------------------------------------------------------------*/
+
+
+
+.catch {
+    position: relative;
+   
+    font-family: 'ヒラギノ角ゴ Pro W3', serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 24px;
+    letter-spacing: 0.3rem;
+    color: #ffffff;
+}
+
+.box {
+    
+    margin: 0 0 0 0;
+    color: #555;
+    background-color: #fff;
+}
+
+.box h2{
+    color: #071e3d;
+    
+}
+.carousel div img {
+    width: 100%;
+    margin: 0 0 5px 0;
+    
+}
+
+.works-box-inner h5{
+    color: #071e3d;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.works-box-inner {
+    height: 40px;
+    padding: 20px;
+   
+}
+
+
+
+section p {
+    font-size: 16px;
+}
+
+.slick-dots {
+    bottom: -35px;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 60px;
+}
+
+.slick-dots li button:before {
+    width: 25px;
+    height: 25px;
+    color: #a8a698;
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+    width: 25px;
+    height: 25px;
+    color: #555555;
+    opacity: 1;
+}
+
+.button-konyu {
+    position: relative;
+    display: block;
+    width: 180px;
+    padding: 20px 5%;
+    margin: 40px auto;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px #ffffff solid;
+    background: #0e3466;
+    transition: .3s;
+    text-align: center;
+    border-radius: 100%;
+}
+
+
+.button-konyu i{
+    position: absolute;
+    top: 38%;
+    right: 14px;
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+/* buy
+------------------------------------------------------------*/
+ .buy {
+        width: 100%;
+        background-color: #001541;
+        padding: 0 0 30px 0;
+    }  
+   
+  .buy h4{
+        
+        text-align: center;
+       
+    }
+    
+
+
+
+/* Footer
+------------------------------------------------------------*/
+
+footer {
+    padding: 30px 0;
+    background: #01060d;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .contact {
+    padding: 0;
+    margin: 30px 0 40px 0;
+}
+
+footer .contact li {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+footer .contact li:last-child {
+    margin-right: 0;
+}
+
+footer .contact a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 0 15px 0 0;
+    font-size: 27px;
+    line-height: 0rem;
+    color: #fff;
+    text-align: center;
+    background-color: #071e3d;
+    border-radius: 50%;
+}
+
+footer .contact .cart a {
+    font-size: 22px;
+    line-height: 3rem;
+}
+
+
+/* PC表示 769px以上
+------------------------------------------------------------*/
+@media (min-width: 769px) {
+    
+    /*  header */
+    .mainlogo {
+        font-size: 34px;
+    }
+    .nav-button:hover,
+    .cart-button:hover {
+        cursor: pointer;
+        background-color: #1c5095;
+    }
+    
+    .header-main-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url("../images/main_charactors.jpg");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+    
+  
+ /* main */   
+    
+    .container {
+       
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    section {
+        margin: 0 auto;
+        width: 30%;
+        padding: 0 2% 0 0;
+    } 
+    section h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .box {
+    
+    margin: 0 2% 25% 0;
+    color: #555;
+    background-color: #fff;
+}
+    
+    .buy h4{
+        text-align: center;
+    }
+    
+    .nopc {
+        display: none;
+    }
+    .sp-nav-list {
+        padding: 0 20%;
+        font-size: 3.4rem;
+        line-height: 7rem;
+        width: 60%;
+        text-align: center;
+    }
+    .catch {
+        font-size: 32px;
+        letter-spacing: 3px;
+        top: 34%;
+    }
+    .button-konyu {
+        width: 250px;
+        padding: 20px 0;
+        margin: 30px auto;
+    }
+    .button-konyu:hover {
+        background: #1c5095;
+        color: #ffffff;
+    }
+ 
+    footer .contact a{
+        float: center;
+    }  
+  
+    footer .contact a:hover {
+        background-color: #1c5095;
+    }
+}
